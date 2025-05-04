@@ -1,21 +1,36 @@
-# Crop and Fertiliser Recommendation System
+# 🌾 Crop and Fertiliser Recommendation System
 
-## 🔍 Project Overview
-This project uses machine learning to recommend the most suitable crops and fertilizers based on soil and environmental conditions like NPK values, pH, temperature, humidity, and rainfall.
+## 📌 Project Overview
+This machine learning project recommends the best-suited crops and appropriate fertilizers based on soil nutrients and weather conditions. It's developed as part of the Shell-Edunet Skills4Future Internship (Apr–May 2025).
 
-## 📁 Files
-- `Week1_Crop_Recommendation.ipynb`: Code for preprocessing, EDA, and baseline model
-- `dataset.csv`: Dataset used for model training
-- `plots/`: Visualizations from EDA
+## 🔧 Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
 
-## 🚀 Getting Started
-1. Clone the repo
-2. Install dependencies (pandas, sklearn, matplotlib, seaborn)
-3. Run the notebook/script
+## 📂 Files
+- `Week1_Crop_Recommendation.ipynb` – Notebook with preprocessing, EDA, and ML
+- `dataset.csv` – Dataset for training
+- `README.md` – Project overview and instructions
 
-## ✅ Output
-- Crop prediction using ML
-- Fertilizer recommendation logic (rule-based)
+## 📊 Features Used
+- Nitrogen (N)
+- Phosphorus (P)
+- Potassium (K)
+- pH
+- Rainfall
+- Temperature
+- Humidity
 
-## 📅 Internship Timeline
-This repository documents progress for the Shell-Edunet Skills4Future Internship (Apr–May 2025).
+## ✅ Current Status
+- Data cleaning and EDA completed
+- ML model (Random Forest & KNN) implemented
+- Initial fertilizer logic added based on NPK deficiencies
+
+## 📌 Next Steps
+- Model optimization and dashboard visualization
+- Real-time fertilizer mapping
+
+## 🔗 Dataset Source
+[Kaggle Dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset)
